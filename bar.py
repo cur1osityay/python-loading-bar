@@ -4,7 +4,7 @@ toolbar_width = 90
 
 start_time = time.time()
 
-def toolbar1():
+def toolbar():
     print('EXEC TIME IS 90S)')
     sys.stdout.write("[%s]" % (" " * toolbar_width))
     sys.stdout.flush()
@@ -15,6 +15,6 @@ def toolbar1():
         sys.stdout.flush()
     sys.stdout.write("]\n") 
 
-toolbar1()
+toolbar()
 
 print("--- %s seconds ---" % (time.time() - start_time))
